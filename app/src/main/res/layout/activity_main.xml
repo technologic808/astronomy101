@@ -1,0 +1,40 @@
+<LinearLayout
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <ImageView
+        android:layout_height="350dp"
+        android:layout_width="match_parent"
+        android:scaleType="centerCrop"
+        android:src="@drawable/hubble" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-light"
+        android:textSize="56sp"
+        android:paddingTop="10dp"
+        android:paddingLeft="20dp"
+        android:text="ASTRONOMY  DAY" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="24sp"
+        android:paddingTop="10dp"
+        android:paddingLeft="20dp"
+        android:fontFamily="sans-serif-condensed"
+        android:text="Date    :   April 21, 2018" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="24sp"
+        android:paddingTop="10dp"
+        android:paddingLeft="20dp"
+        android:fontFamily="sans-serif-condensed"
+        android:text="Venue :   Earth" />
+
+</LinearLayout>
